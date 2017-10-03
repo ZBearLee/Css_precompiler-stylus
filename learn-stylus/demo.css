@@ -1,0 +1,134 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #bfeaf7;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+.webpage {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  display: block;
+  margin-top: 100px;
+  height: 420px;
+  background-color: #ebf3fe;
+  z-index: 1;
+}
+.webpage .top-button-left,
+.webpage .top-button-right,
+.webpage .top-button-middle {
+  position: absolute;
+  top: 2%;
+  border-radius: 50%;
+  width: 3.5%;
+  height: 5%;
+  background-color: #818d98;
+}
+.webpage .top-button-left {
+  left: 3%;
+}
+.webpage .top-button-middle {
+  left: 7%;
+}
+.webpage .top-button-right {
+  left: 11%;
+}
+.webpage .bar {
+  position: absolute;
+  width: 100%;
+  background-color: #26b56f;
+  top: 10%;
+  height: 3%;
+}
+.webpage .box-top-left,
+.webpage .box-top-right,
+.webpage .box-bottom-right {
+  position: absolute;
+  width: 40%;
+  height: 35%;
+}
+.webpage .box-top-left {
+  top: 18%;
+  left: 8%;
+  background-color: #7c90cf;
+}
+.webpage .box-top-right {
+  top: 18%;
+  right: 8%;
+  background-color: #f9cb49;
+}
+.webpage .box-bottom-left {
+  bottom: 8%;
+  left: 8%;
+  background-color: #f1536a;
+}
+.webpage .box-bottom-right {
+  bottom: 8%;
+  right: 8%;
+  background-color: #31abf9;
+}
+.webpage .shirt {
+  position: absolute;
+  bottom: -20%;
+  left: -15%;
+  width: 55%;
+  height: 40%;
+  background: #113234;
+  -webkit-border-top-left-radius: agrs;
+  -moz-border-top-left-radius: 100px;
+  border-top-left-radius: 100px;
+  -webkit-border-top-right-radius: agrs;
+  -moz-border-top-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.webpage .shirt .rod {
+  position: absolute;
+  top: -20%;
+  width: 45%;
+  height: 25%;
+  left: 12.5%;
+  background: #b3b3b3;
+}
+.webpage .shirt .rod .rod-end-left,
+.webpage .shirt .rod .rod-end-right {
+  background: #b3b3b3;
+  height: 120%;
+  width: 20%;
+}
+.webpage .shirt .rod .rod-end-left {
+  position: absolute;
+  left: -10%;
+  top: -10%;
+}
+.webpage .shirt .rod .rod-end-right {
+  position: absolute;
+  height: 120%;
+  top: -90%;
+  left: 20%;
+  width: 60%;
+  background: #26b56f;
+}
+.goods-list {
+  margin: 20px;
+}
+.goods-list .good-item a {
+  display: block;
+}
+.goods-list .good-item a img.album {
+  width: 200px;
+}
+.goods-list .good-item a div.content {
+  margin-left: 220px;
+}
+.goods-list .good-item a div.content header {
+  font-weight: bold;
+}
+.goods-list .good-item a div.content div.row {
+  color: #f00;
+}
