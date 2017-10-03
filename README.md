@@ -47,7 +47,7 @@ a.button
         color baseColor      
    ```
    
-   * stylus的核心-——嵌套*
+   *stylus的核心-——嵌套*
      嵌套之间用tab键
    ```
      ul>(li>a{a$})*3     
@@ -63,10 +63,7 @@ a.button
             color blue         
             a         
                 background-color @color
-                ``` 
-   
-
-
+    ```     
 
 
 
